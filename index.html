@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div class="container">
-      <header class="page-header">
+    <header class="page-header">
+      <div class="container page-header-container">
         <nav class="page-nav">
           <a class="logo-link link" href="./index.html" lang="en"
             >Web<span class="logo-header">Studio</span></a
@@ -43,15 +43,19 @@
             <a class="contact-phone-number link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </header>
+      </div>
+    </header>
 
-      <main>
-        <section class="hero">
+    <main>
+      <section class="hero">
+        <div class="container hero-block">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
 
           <button class="modal-open-btn" type="button">Замовити послугу</button>
-        </section>
-        <section>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container section-container">
           <h2 class="visually-hidden">Наші переваги</h2>
           <ul class="features list">
             <li>
@@ -79,9 +83,11 @@
               </p>
             </li>
           </ul>
-        </section>
+        </div>
+      </section>
 
-        <section class="about-work">
+      <section class="about-work section">
+        <div class="container hero-block">
           <h2 class="work-title">Чим ми займаємося</h2>
           <ul class="work-item list">
             <li class="work-img">
@@ -94,42 +100,71 @@
               <img src="./images/img3.jpg" alt="Обработка" width="370" height="294" />
             </li>
           </ul>
-        </section>
-        <ul></ul>
-        <section class="about-team">
+        </div>
+      </section>
+      <section class="about-team section">
+        <div class="container">
           <h2 class="team-title">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-list-item">
               <img
-                class="team-list"
+                class="team-img"
                 src="./images/worker1.jpg"
                 alt="фото Ігор Дем'яненко"
                 width="270"
                 height="260"
               />
-              <h3 class="worker-name">Ігор Дем'яненко</h3>
-              <p class="work-position">Product Designer</p>
+              <div class="work-description">
+                <h3 class="worker-name">Ігор Дем'яненко</h3>
+                <p class="work-position">Product Designer</p>
+              </div>
             </li>
             <li class="team-list-item">
-              <img src="./images/worker2.jpg" alt="фото Ольга Рєпіна" width="270" height="260" />
-              <h3 class="worker-name">Ольга Рєпіна</h3>
-              <p class="work-position">Frontend Developer</p>
+              <img
+                class="team-img"
+                src="./images/worker2.jpg"
+                alt="фото Ольга Рєпіна"
+                width="270"
+                height="260"
+              />
+              <div class="work-description">
+                <h3 class="worker-name">Ольга Рєпіна</h3>
+                <p class="work-position">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-list-item">
-              <img src="./images/worker3.jpg" alt=" фото Микола Тарасов" width="270" height="260" />
-              <h3 class="worker-name">Микола Тарасов</h3>
-              <p class="work-position">Marketing</p>
+              <img
+                class="team-img"
+                src="./images/worker3.jpg"
+                alt=" фото Микола Тарасов"
+                width="270"
+                height="260"
+              />
+              <div class="work-description">
+                <h3 class="worker-name">Микола Тарасов</h3>
+                <p class="work-position">Marketing</p>
+              </div>
             </li>
             <li class="team-list-item">
-              <img src="./images/worker4.jpg" alt="фото Михайло Єрмаков" width="270" height="260" />
-              <h3 class="worker-name">Михайло Єрмаков</h3>
-              <p class="work-position">UI Designer</p>
+              <img
+                class="team-img"
+                src="./images/worker4.jpg"
+                alt="фото Михайло Єрмаков"
+                width="270"
+                height="260"
+              />
+              <div class="work-description">
+                <h3 class="worker-name">Михайло Єрмаков</h3>
+                <p class="work-position">UI Designer</p>
+              </div>
             </li>
           </ul>
-        </section>
-      </main>
-      <footer class="page-footer">
-        <a class="logo-link link" href="./index.html" lang="en"
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="container">
+        <a class="logo-link footer-logo link" href="./index.html" lang="en"
           >Web<span class="logo-footer">Studio</span></a
         >
 
@@ -153,7 +188,7 @@
             </li>
           </ul>
         </address>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>
