@@ -71,7 +71,6 @@ body {
 .page-header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .page-nav {
   display: flex;
@@ -84,6 +83,7 @@ body {
 }
 .contacts {
   display: flex;
+  margin-left: auto;
 }
 .logo-header {
   margin-right: 93px;
@@ -103,7 +103,6 @@ button {
 
 button {
   background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
@@ -329,8 +328,6 @@ button {
 }
 
 /* =======PORTFOLIO====== */
-.section-portfolio {
-}
 .filters-buttons {
   justify-content: center;
   display: flex;
